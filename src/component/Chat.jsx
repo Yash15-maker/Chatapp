@@ -9,7 +9,7 @@ export default function Chat() {
   React.useEffect(() => {
     db.collection("chats")
       .orderBy("createdAt")
-      .limit(50)
+      
       .onSnapshot((snapshot) => {
         setMessages(snapshot.docs.map((doc)=>doc.data()));
       });
