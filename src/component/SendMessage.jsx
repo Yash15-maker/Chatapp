@@ -21,7 +21,7 @@ export default function SendMessage({ scroll }) {
     <div>
       <div className="sendMsg">
         <form onSubmit={submitForm}>
-          <div style={{width: "100%",display: "flex",flexDirection: "row",justifyContent:"space-between",position: "relative",left: "100vh",margin: "auto" }}>
+          <div style={{width: "100%",display: "flex",flexDirection: "row",justifyContent:"space-between"}}>
           <input
             style={{
               width: "50vh",
